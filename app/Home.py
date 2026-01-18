@@ -50,7 +50,6 @@ def qdrant_client():
 
 # ✅ Create ONE Qdrant client for the whole app run
 st.title("DealRoom Copilot (MVP)")
-st.caption("Step 3.1: PDF -> chunks -> embeddings -> Qdrant (RAG index)")
 
 # ---- Deal selector (global) ----
 _deals = load_deals()
